@@ -7,17 +7,8 @@ public class UserDTO {
     private Long id;
     private String name;
 
-    public Account getAccount() {
-        return account;
+    public UserDTO() {
     }
-
-    public void setAccount(Account account) {
-        this.account = account;
-    }
-
-    private Account account;
-
-    public UserDTO() {}
 
     public Long getId() {
         return id;
