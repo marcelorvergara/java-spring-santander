@@ -1,5 +1,6 @@
 package org.dio.service.impl;
 
+import org.dio.domain.dto.UserDTO;
 import org.dio.domain.model.User;
 import org.dio.domain.repository.UserRepository;
 import org.dio.service.UserService;
@@ -13,6 +14,7 @@ public class UserServiceImpl implements UserService {
     public UserServiceImpl(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
+
     @Override
     public User findById(Long id) {
         return userRepository.findById(id).orElseThrow(NoSuchElementException::new);
