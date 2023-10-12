@@ -1,8 +1,8 @@
-package org.dio.domain.service.impl;
+package org.dio.service.impl;
 
 import org.dio.domain.model.User;
 import org.dio.domain.repository.UserRepository;
-import org.dio.domain.service.UserService;
+import org.dio.service.UserService;
 
 import java.util.NoSuchElementException;
 

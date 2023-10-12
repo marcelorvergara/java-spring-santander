@@ -1,4 +1,4 @@
-package org.dio.domain.service;
+package org.dio.service;
 
 import org.dio.domain.model.User;
 
