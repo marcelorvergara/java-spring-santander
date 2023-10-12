@@ -2,9 +2,10 @@ package org.dio.domain.converter;
 
 import org.dio.domain.dto.UserDTO;
 import org.dio.domain.model.User;
+import org.springframework.stereotype.Service;
 
+@Service
 public class UserConverter {
-
     public UserDTO toDTO(User user) {
         UserDTO dto = new UserDTO();
         dto.setId(user.getId());
