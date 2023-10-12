@@ -1,0 +1,25 @@
+{
+  "name": "Vergara",
+  "account" : {
+    "number" : "000000-00",
+    "sgency" : "0000",
+    "balance" : 1234.56,
+    "limit" : 1000.00
+  },
+  "features" : [
+    {
+      "icon": "URL",
+      "description" :"Descrição da Feature"
+    }
+  ],
+  "card" : {
+    "number" : "xxxx xxxx xxxx xxxx",
+    "limit" : 1000.00
+  },
+  "news" : [
+    {
+      "icon": "URL",
+      "description" : "Descrição da novidade"
+    }
+  ]
+}
