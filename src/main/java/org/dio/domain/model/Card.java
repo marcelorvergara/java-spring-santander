@@ -1,9 +1,11 @@
 package org.dio.domain.model;
 
+import java.math.BigDecimal;
+
 public class Card {
     private Long id;
     private String number;
-    private Float limit;
+    private BigDecimal limit;
 
     public Long getId() {
         return id;
@@ -21,11 +23,11 @@ public class Card {
         this.number = number;
     }
 
-    public Float getLimit() {
+    public BigDecimal getLimit() {
         return limit;
     }
 
-    public void setLimit(Float limit) {
+    public void setLimit(BigDecimal limit) {
         this.limit = limit;
     }
 }

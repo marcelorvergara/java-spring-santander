@@ -1,11 +1,13 @@
 package org.dio.domain.model;
 
+import java.math.BigDecimal;
+
 public class Account {
     private Long id;
     private String number;
     private String agency;
-    private Float balance;
-    private Float limit;
+    private BigDecimal balance;
+    private BigDecimal limit;
 
     public Long getId() {
         return id;
@@ -31,19 +33,19 @@ public class Account {
         this.agency = agency;
     }
 
-    public Float getBalance() {
+    public BigDecimal getBalance() {
         return balance;
     }
 
-    public void setBalance(Float balance) {
+    public void setBalance(BigDecimal balance) {
         this.balance = balance;
     }
 
-    public Float getLimit() {
+    public BigDecimal getLimit() {
         return limit;
     }
 
-    public void setLimit(Float limit) {
+    public void setLimit(BigDecimal limit) {
         this.limit = limit;
     }
 }
